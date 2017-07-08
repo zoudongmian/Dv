@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/xyy_grid"
+        android:layout_width="388dp"
+        android:layout_height="292dp"
+        app:columnCount="3"
+        app:rowCount="3">
+
+        <ImageView
+            android:id="@+id/xyy_0x0"
+            android:src="@mipmap/xyy_kenan_00x00"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_1x0"
+            android:src="@mipmap/xyy_kenan_01x00"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_2x0"
+            android:src="@mipmap/xyy_kenan_02x00"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_0x1"
+            android:src="@mipmap/xyy_kenan_00x01"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_1x1"
+            android:src="@mipmap/xyy_kenan_01x01"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_2x1"
+            android:src="@mipmap/xyy_kenan_02x01"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_0x2"
+            android:src="@mipmap/xyy_kenan_00x02"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_1x2"
+            android:src="@mipmap/xyy_kenan_01x02"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+        <ImageView
+            android:id="@+id/xyy_2x2"
+            android:src="@mipmap/xyy_kenan_02x02"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"/>
+
+    </android.support.v7.widget.GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:src = "@mipmap/kenan"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/xyy_time"
+                android:layout_margin="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="计时：0" />
+
+            <Button
+                android:id="@+id/xyy_start"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="开始游戏"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="花朵科技有限公司
+        在此特别提醒您（用户）在注册成为用户之前，请认真阅读本《用户协议》（以下简称“协议”），
+        确保您充分理解本协议中各条款。请您审慎阅读并选择接受或不接受本协议。
+        除非您接受本协议所有条款，否则您无权注册、登录或使用本协议所涉服务。
+        您的注册、登录、使用等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。
+本协议约定陌陌科技与用户之间关于“陌陌”软件服务（以下简称“服务”）的权利义务。
+        “用户”是指注册、登录、使用本服务的个人。本协议可由陌陌科技随时更新，
+        更新后的协议条款一旦公布即代替原来的协议条款，恕不再另行通知，
+        用户可在本网站查阅最新版协议条款。在陌陌科技修改协议条款后，如果用户不接受修改后的条款，请立即停止使用"
+    android:padding="12dp"
+    android:textSize="22dp"
+    android:layout_weight="0.99" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioGroup
+            android:id="@+id/yang_conter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yang_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="接受" />
+
+            <RadioButton
+                android:id="@+id/yang_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="不接受" />
+
+            <Button
+                android:id="@+id/yang_comein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:text="确定" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

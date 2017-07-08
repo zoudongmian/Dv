@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">大V</string>
+    <string name="question_city">
+        Constantinople is the largest city in Turkey.
+    </string>
+    <string name="xieyi">特别提示
+        花朵科技有限公司（以下简称“花朵科技”）
+        在此特别提醒您（用户）在注册成为用户之前，请认真阅读本《用户协议》（以下简称“协议”），
+        确保您充分理解本协议中各条款。请您审慎阅读并选择接受或不接受本协议。
+        除非您接受本协议所有条款，否则您无权注册、登录或使用本协议所涉服务。
+        您的注册、登录、使用等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。
+本协议约定陌陌科技与用户之间关于“陌陌”软件服务（以下简称“服务”）的权利义务。
+        “用户”是指注册、登录、使用本服务的个人。本协议可由陌陌科技随时更新，
+        更新后的协议条款一旦公布即代替原来的协议条款，恕不再另行通知，
+        用户可在本网站查阅最新版协议条款。在陌陌科技修改协议条款后，如果用户不接受修改后的条款，请立即停止使用陌陌科技提供的服务，用户继续使用陌陌科技提供的服务将被视为接受修改后的协议。 </string>
+    <string name="question_ocean">
+        世界上有四大公主分别叫：太平吴莫公主，印度阿瓦西公主，大西洲西西公主，北冰冰雪公主。
+    </string>
+    <string name="question_mideast">
+       中国最大的山叫做天山。
+    </string>
+    <string name="question_africa">
+        匹配中，旗鼓相当的对手是你的大学室友
+    </string>
+    <string name="question_americas">
+        问题还在服务器端应该关闭软件获取。
+    </string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">SHOW ANSWER</string>
+    <string name="cheat_button">CHEAT</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_tosat">Incorrect</string>
+    <string name="next_button">NEXT</string>
+    <string name="prev_button">PREV</string>
+</resources>
